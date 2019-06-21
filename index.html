@@ -1,11 +1,19 @@
-<form action="normal_click" method="get">
-<button formmethod="get" type="submit">Normaler Parkplatz</button>
-</form>
+<html>
+	<body>
+		<h2>ParkhausPro</h2>
+		<p>Freie Parkplaetze: {{number_spots}}</p>
+		<p>Ihr Parkplatz: {{your_spot}}</p>
+		
+		<form action="normal_click" method="get">
+		<button formmethod="get" type="submit">Normaler Parkplatz</button>
+		</form>
 
-<form action="familie_click" method="get">
-<button formmethod="get" type="submit">Familienparkplatz</button>
-</form>
+		<form action="familie_click" method="get">
+		<button formmethod="get" type="submit">Familienparkplatz</button>
+		</form>
 
-<form action="frauenparkplatz_click" method="get">
-<button formmethod="get" type="submit">Frauenparkplatz</button>
-</form>
+		<form action="frauenparkplatz_click" method="get">
+		<button formmethod="get" type="submit">Frauenparkplatz</button>
+		</form>
+	</body>
+</html>
